@@ -114,14 +114,52 @@ body{
     transition:0.6s
     
 }
-.apresentacao__links__link:hover{
+.projetos__links{
+    margin-top: 20px;
+
+}
+
+
+.projetos__link__visualizar{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px #22D4FD solid;
+    font-weight: 600;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    transition:0.6s
+
+
+}
+
+.apresentacao__links__link :hover{
     box-shadow: 1px 1px 6px 3px #22D4FD;
  
     
 }
+.projetos__link__visualizar:hover{
+    box-shadow: 1px 1px 6px 3px #22D4FD; 
+}
 .imagem-perfil{
     transition: 0.6s;
     border-radius: 6px;
+
+}
+
+.local{
+    margin: 20px;
+    font-size: 15px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: bold;
+
+}
+.dados-local{
+    margin: 5px 0px;
+    list-style: none;
+    font-size: 13px;
+    font-weight: lighter;
+    opacity: 70%;
 
 }
 
